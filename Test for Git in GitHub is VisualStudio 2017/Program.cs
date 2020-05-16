@@ -10,8 +10,8 @@ namespace Test_for_Git_in_GitHub_is_VisualStudio_2017
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
+            Person person = new Person();
+            person.WelcomPerson();
         }
     }
 }
